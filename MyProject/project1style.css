@@ -1,0 +1,106 @@
+body{
+    max-width: 100%;
+}
+.header{
+    float: left;
+    clear: right;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+.navbar1{
+    font-size: 1.5em;
+    float: right;
+    padding-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.item{
+    padding: 0em 1em 0em 1em;
+    display: inline-block;
+    clear: both;
+}
+.navbar2{
+    width:15%;
+    float: left;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+.list1, .list2, .footerlist{
+    list-style-type: none;
+}
+.container{
+    width:60%;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-left: 150px;
+    margin-left: 150px;
+}
+.form{
+    width: 400px;
+    margin-left: 450px;
+}
+#name, #phone, #msg, .submit {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    width: 200px;
+}
+fieldset{
+    border-radius: 5px;
+    box-shadow: 20px,20px;
+}
+#mainpage{
+    clear: both;
+    background-color: beige;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#wholepage{
+    background-color: #333;
+}
+.clockdate-wrapper {
+    background-color: #333;
+    padding:25px 0px 25px 100px;
+    max-width:350px;
+    width:100%;
+    margin-left: 300px;
+    border-radius:5px;
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:40px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:20px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    letter-spacing:5px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+.footer {
+	padding:30px;
+}
+.footerlist{
+	color:#fff;
+	text-align:center;
+}
